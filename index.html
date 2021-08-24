@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citas para mascotas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Citas para mascotas</h1>
+    <p>Ingrese sus datos para generar su cita</p>
+    <form action="confirmacion.html" method="GET">
+        <div style="margin-bottom: 30px;">
+          <label>Nombres</label>
+          <input type="text" class="form-control" name="nombres">
+        </div>
+        <div style="margin-bottom: 30px;">
+            <label>Apellido Paterno</label>
+            <input type="text" class="form-control" name="ape-pat">
+        </div>
+        <div style="margin-bottom: 30px;">
+            <label>Apellido Materno</label>
+            <input type="text" class="form-control" name="ape-mat">
+        </div>
+        <div style="margin-bottom: 30px;">
+            <label>Sexo</label>
+            <select name="sexo" id="" class="form-control">
+                <option value="Hombre">Hombre</option>
+                <option value="Mujer">Mujer</option>
+                <option value="Prefiero no especificar">Prefiero no especificar</option>
+            </select>
+        </div>
+        <div style="margin-bottom: 30px;">
+            <label>Correo electrónico</label>
+            <input type="text" class="form-control" name="correo">
+        </div>
+        <div style="margin-bottom: 30px;">
+            <label>Teléfono de contacto</label>
+            <input type="text" class="form-control" name="telefono">
+        </div>
+        <div style="margin-bottom: 30px;">
+            <label>Distrito</label>
+            <select name="distrito" id="" class="form-control">
+                <option value="Distrito A">Distrito A</option>
+                <option value="Distrito B">Distrito B</option>
+                <option value="Distrito C">Distrito C</option>
+                <option value="Distrito D">Distrito D</option>
+            </select>
+        </div>
+        <div style="margin-bottom: 30px;">
+            <label>Dirección</label>
+            <input type="text" class="form-control" name="direccion">
+        </div>
+        <div style="margin-bottom: 30px;">
+            <label>Nombre de la mascota</label>
+            <input type="text" class="form-control" name="nom-mascota">
+        </div>
+        <div style="margin-bottom: 30px;">
+            <label>Tipo de mascota</label>
+            <select name="tip-mascota" id="" class="form-control">
+                <option value="Perro">Perro</option>
+                <option value="Gato">Gato</option>
+                <option value="Hamster">Hamster</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+</body>
+</html>
