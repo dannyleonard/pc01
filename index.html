@@ -10,17 +10,19 @@
     <h1>Citas para mascotas</h1>
     <p>Ingrese sus datos para generar su cita</p>
     <form action="confirmacion.html" method="GET">
-        <div style="margin-bottom: 30px;">
+        <div style="margin-bottom: 30px;" lass="form-group">
           <label>Nombres</label>
           <input type="text" class="form-control" name="nombres">
         </div>
-        <div style="margin-bottom: 30px;">
-            <label>Apellido Paterno</label>
-            <input type="text" class="form-control" name="ape-pat">
-        </div>
-        <div style="margin-bottom: 30px;">
-            <label>Apellido Materno</label>
-            <input type="text" class="form-control" name="ape-mat">
+        <div class="row">
+            <div class="col-md-6" style="margin-bottom: 30px;">
+                <label>Apellido Paterno</label>
+                <input type="text" class="form-control" name="ape-pat">
+            </div>
+            <div class="col-md-6" style="margin-bottom: 30px;">
+                <label>Apellido Materno</label>
+                <input type="text" class="form-control" name="ape-mat">
+            </div>
         </div>
         <div style="margin-bottom: 30px;">
             <label>Sexo</label>
